@@ -1,5 +1,5 @@
 {% set name = "seareport-data" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seareport_data-{{ version }}.tar.gz
-  sha256: 9f75173bc899c78ee47b4aac198ba1ec7d3e97a798e578f85d183c2f2b02e96f
+  sha256: 4c2d0e8c6b21d2fe41a417e5cea8054c1ea77538ebe03a5f53818e223b6b65c0
 
 build:
   noarch: python
